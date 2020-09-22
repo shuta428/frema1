@@ -4,6 +4,7 @@ lock '3.13.0'
 
 # Capistranoのログの表示に利用する
 set :application, 'frema1'
+set :deploy_to, '/var/www/frema1'
 
 # どのリポジトリからアプリをpullするかを指定する
 set :repo_url,  'git@github.com:shuta428/frema1.git'
